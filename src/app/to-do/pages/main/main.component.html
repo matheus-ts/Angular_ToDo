@@ -1,1 +1,7 @@
-<app-card></app-card>
+<div class="container">
+  <div class="inner-container">
+    <app-card></app-card>
+  </div>
+  <input type="text" [(ngModel)]="novoItem" />
+  <app-button (click)="adcionarItem()"> Adicionar Item </app-button>
+</div>

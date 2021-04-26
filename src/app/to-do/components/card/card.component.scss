@@ -1,8 +1,16 @@
 .card {
-  background-color: #fff;
-  box-shadow: 2px 2px 5px rgba($color: #000000, $alpha: 0.2);
-  border-radius: 5px;
-  min-width: 350px;
-  min-height: 200px;
-  padding: 20px;
+  padding: 30px 75px 10px 30px;
+  position: relative;
+  background: #0b0a07;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.3);
+  border-top: 50px solid #f4ff52;
+}
+
+.card h1 {
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border-bottom: 4px solid #fff;
 }

@@ -1,0 +1,4 @@
+<button [disabled]="disabled">
+  <ng-content *ngIf="!isLoading"></ng-content>
+  <i *ngIf="isLoading" class="fas fa-spin fa-spinner"></i>
+</button>
